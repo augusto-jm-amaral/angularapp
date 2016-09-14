@@ -1,0 +1,40 @@
+.navbar-bottom-custom {
+    /*background-color: rgba(140, 131, 98, 1) !important;
+    background-color: rgba(227, 206, 129, 1) !important;
+    background-color: rgba(89, 79, 44, 1) !important;*/
+    background-position: center bottom;
+    background-size: cover;
+    max-height: 40px;
+    min-height: 40px;
+    position: relative;
+    border-radius: 0;
+    margin-bottom: 0;
+    margin-top: 15px;
+    border-top: 1px solid #8c8362;
+    padding-bottom: 20px;
+}
+
+.logo-rodape {
+  max-height: 50px;
+  min-height: 50px;
+  position: relative;
+}
+
+.texto-rodape {
+  color: #8c8362;
+  top: 11px;
+  padding: 15px
+}
+
+.row-rodape {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.font-color-rodape {
+  color: #594f2c;
+}
+
+.div-direitos {
+   margin-top: 15px;
+}

@@ -1,0 +1,109 @@
+.img-topo {
+	background-image: url(../img/lins_rio_dourado.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	padding: 200px 0;
+ 	color: #fff;
+ 	top: 0;
+}
+
+.tarja-busca{
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 180px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 469px;
+	z-index: 999;
+}
+
+.tarja-busca > .container-fluid {
+    margin-top: 75px;
+}
+
+.input-lg{
+	border-radius: 2px;
+}
+
+.btn-lg{
+	border-radius: 2px;
+}
+
+.texto-principal {
+	left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 240px;
+	z-index: 999;
+	color: white;
+}
+
+.texto-principal > h1 {
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+.text-title {
+	color: #a7a7a7;
+}
+
+.text-title-2 {
+	color: #808080;
+}
+
+.container-fundo {
+	background-color: f8f8f8;
+	margin-top: 15px;
+	border-radius: 4px;
+}
+
+.fotos-ranchos-home {
+		background-position: center center;
+    background-size: cover;
+    max-height: 250px;
+    min-height: 250px;
+    position: relative;
+}
+
+.preco-foto-home {
+		background-color: rgba(91, 91, 91, 1);
+    bottom: 35px;
+    color: white;
+    padding: 5px 7px;
+    position: absolute;
+    right: 15px;
+}
+
+.input-group-detalhes-anuncio {
+	position: absolute;
+	right: 15px;
+	left: 15px;
+	bottom: 0;
+}
+
+.title-foto-home {
+	background-color: rgba(91, 91, 91, 0.3);
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+	color: white;
+	font-size: 19px;
+	font-weight: 700;
+	left: 15px;
+	margin: auto;
+	padding: 5px 7px;
+	position: absolute;
+	text-align: center;
+	top: 30px;
+}
+
+@media (max-width: 767px) {
+	.fotos-ranchos-home {
+		margin-bottom: 15px;
+	}
+
+	.input-group-detalhes-anuncio {
+    bottom: 15px;
+	}
+}

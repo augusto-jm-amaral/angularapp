@@ -1,0 +1,38 @@
+body {
+	font-family: 'Open Sans','Roboto', sans-serif;
+	/*font-weight: 500;*/
+	/*padding-top: 70px;*/
+}
+
+.container-custom {
+	margin-top: 72px;
+}
+
+.breadcrumb-custom {
+    background-color: #594f2c;
+    list-style: outside none none;
+    /*border-radius: 0;*/
+}
+
+.breadcrumb-custom > li > span {
+	color: #fff;
+}
+
+.form-control-focus:focus {
+	border-color: none;
+	box-shadow: none;
+}
+
+@media (max-width: 767px) {
+    .space-bottom {
+        margin-bottom: 15px;
+    }
+}
+
+.font-roboto {
+	font-family: "Roboto",sans-serif;
+}
+
+.erro {
+	border: 1.5px solid #a94442 !important;
+}
